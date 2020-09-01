@@ -1,0 +1,30 @@
+body {
+	background-image: url('earth3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#heading {
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	margin-top: 60px;
+	color: white;
+
+}
+
+#content {
+	height: 500px;
+	width: 80%;
+	margin: auto;
+	/*border:  4px solid red;*/
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Lobster', cursive;
+	color: white;
+	box-sizing: border-box;
+	font-size: 30px;
+	text-overflow: scroll;
+	text-align: justify;
+
+}

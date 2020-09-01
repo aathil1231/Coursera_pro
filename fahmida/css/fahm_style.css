@@ -1,0 +1,329 @@
+
+.navbar {
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 120px;
+
+}
+
+.navbar-brand > h1 {
+	float: right;
+	text-align: justify;
+	margin-left: 150px;
+	margin-top: 20px;
+	margin-right: 250px;
+} 
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  float: right;
+  margin-right: 900px;
+
+
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a:link {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a:active {
+  background-color: black;
+  color: #ddd;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 15%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("ph10.jpg"); }
+.img2 { background-image: url("ph2.jpg"); }
+.img3 { background-image: url("ph4.jpg"); }
+.img4 { background-image: url("ph7.jpg"); }
+.img5 { background-image: url("ph9.jpg"); }
+.img6 { background-image: url("solar-system_1024.jpg"); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: absolute; /* Stay fixed */
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 900px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+#spacet {
+	width: 100%;
+	height: 200px;
+	/*border: 6px solid red;*/
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Inconsolata', monospace;
+	font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  /*background-image: url('ssh.jpg');*/
+  background-size: cover;
+  margin-top: 30px;
+
+}
+
+
+#planets  p  {
+	width: 150px;
+	height: 150px;
+	/*border: 2px solid black;*/
+	margin-right: 23px;
+	margin-left: 15px;
+	float: left;
+	text-align: center;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	text-overflow: auto;
+	font-family: 'Lobster', cursive;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  font-size: 30px;
+  border-radius: 50%;
+
+
+}
+
+
+
+#news {
+  width: 100%;
+  height: 100px;
+  /*border: 6px solid red;*/
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Inconsolata', monospace;
+  font-size: 60px;
+  font-weight: bold;
+  
+  background-image: url('nasa.jpg');
+  box-sizing: border-box;
+  float: left;
+  color: white;
+  background-image:  no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+
+
+
+#newstips{
+  width: 100%;
+  height: 1200px;
+  /*border: 2px solid red;*/
+  float: left;
+  margin-bottom: 40px;
+  font-family: 'Inconsolata', monospace;
+  background-image: url(nigsky.jpg);
+  background-size: cover;
+
+}
+
+#newstips p {
+  color: white;
+  font-size: 25px;
+  /*background-color: red;*/
+  font-weight: bold;
+}
+
+#newstips h2  {
+  /*background-color: blue;*/
+  color: hotpink;
+  font-weight: bold;
+
+}
+
+
+
+a:link {
+  /*border: 1px solid green ;*/
+  /*background-color: green;*/
+}
+
+a:visited {
+  display: inline-flex;
+  
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  background-color: green;
+  text-decoration: none;
+  border-color: 2px green;
+  border-radius: 85px;
+  
+}
+
+a:active{
+  color: black;
+  background-color: blue;
+  text-decoration: none;
+}
+
+
+
+
+a{
+  text-decoration: none;
+}
+
+#contact{
+  width: 100%;
+  height: 500px;
+  /*border: 2px solid red;*/
+  float: left;
+  margin-bottom: 60px;
+  background-image: url(earth3.jpg);
+  }
+#about{
+  width: 100%;
+  height: 600px;
+  /*border: 2px solid red;*/
+  float: left;
+  margin-bottom: 60px;
+  background-image: url(nasa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ 
+}
+
+#contact h1{
+  text-align: center;
+  size: 150px;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  margin-bottom: 150px;
+
+
+
+}
+
+a:hover img {
+  border-radius: 75px;
+  height: 150px;
+  width: 150px;
+
+
+}
+
+#contact img{
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 100px;
+
+
+  text-align: justify;
+}
+
+#about h1 
+
+{
+  text-align: center;
+  size: 150px;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  
+}
+
+#about  p {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+}
