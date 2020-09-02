@@ -1,0 +1,53 @@
+
+
+.navbar {
+	background-color: gray;
+	margin-bottom: 60px;
+}
+
+#menu {
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	margin-bottom: 40px;
+
+}
+
+#chicken, #beef, #fish{
+
+	height: 500px;
+	border: 2px solid red;
+	float: left;
+	margin-right: 30px;
+	overflow: scroll;
+	
+	padding: 10px 10px 10px 10px;
+	background-color: gray;
+	margin-bottom: 50px;
+}
+
+.nav-item .nav-link {
+	text-align: center;
+	font-weight: bold;
+	/*border: 2px solid black;*/
+	
+}
+
+.nav-link {
+	/*background-color: white;*/
+	
+}
+
+
+
+
+
+
+
+
+h1 {
+	text-align: center;
+
+}
+
+
