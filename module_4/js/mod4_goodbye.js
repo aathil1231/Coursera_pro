@@ -3,8 +3,8 @@
 
 var speakWord = "Good bye";
 
-var byeSpeaker = {}; 
-function  speak(name){
+var byeSpeaker  = {}; 
+byeSpeaker.speak =  function  speak(name){
 console.log(speakWord + " " + name );
 }
 
