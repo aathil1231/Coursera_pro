@@ -1,0 +1,157 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image : url("back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+
+
+}
+
+#user1{
+width: 150px;
+height: 150px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+
+.title1{
+	text-align: center;
+	color: yellow;
+	text-shadow: 6px 6px 10px #6600cc;
+	font-weight: bolder;
+	font-size: 60px;
+}
+
+.title2{
+	text-align: center;
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+	  text-shadow: 4px 4px 8px #FF0000;
+	 font-size: 50px;
+
+}
+
+#button1{
+	background-color: #ff6600;
+	margin-right: 75px;
+	margin-left: 75px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: bold;
+  	cursor: pointer;
+
+}
+#button1:hover {
+	  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#button2{
+	width: 150px;
+	height: 200px;
+	text-align: center;
+	vertical-align: text-bottom;
+	font-size: 18px;
+	/*border: solid red;*/
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-top: 150px;
+	font-style: italic;
+	background-color: #ff9933;
+	border-radius: 20px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+#button2:hover {
+	  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
+
+#button3{
+	background-color: transparent;
+	margin-right: 120px;
+	margin-left: 120px;
+	font-size: 30px;
+	cursor: pointer;
+	border-color: transparent;
+	font-weight: bold;
+}
+#button3:hover {
+	  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+@media (max-width: 700px){
+	
+	#wl{
+		float:left;
+	}
+
+	#fs{
+		float: left;
+	}
+	#vo{
+		float: left;
+	}
+	
+	#button2{
+		margin-right: 10px;
+	}
+	#topay{
+		float: left;
+
+		}
+	
+	#toship{
+		float: left;
+		
+	}
+	
+	
+	#torec{
+		float:right;
+
+		
+	
+	}
+	#tocan{
+		
+		float:right;
+
+	}
+
+	#mess{
+		float: left;
+	}
+	#pao{
+		float: left;
+	}
+
+
+}
+	
+
+
+
+
+
+	
+	
+
+
+
